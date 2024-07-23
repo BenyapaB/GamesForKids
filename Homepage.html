@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills Improve</title>
+    <link rel="stylesheet" href="Mainstyle.css" />
+    <link rel="icon" type="image/x-icon" href="imgs/hand-print.png" />
+  </head>
+  <body onload="start()">
+    <div id="game-title">WELCOME</div>
+    <div id="select-game">Select Games</div>
+    <div id="game-choose" class="justify-center">
+      <a href="MatchingGame.html">
+        <button id="matching-game">Matching Game</button>
+      </a>
+      <a href="Calculate.html">
+        <button id="cal-game">Calculator Game</button>
+      </a>
+      <a href="GroupGame.html">
+        <button id="group-game">Group Game</button>
+      </a>
+    </div>
+  </body>
+  <script>
+    var audio = new Audio("sounds/Carefree.mp3");
+    function start() {
+      audio.play();
+    }
+</script>
+</html>
